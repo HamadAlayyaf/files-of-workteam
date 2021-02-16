@@ -1,0 +1,143 @@
+---------------- Django Course -----------------
+
+---------- Lecture 1 ----------
+title: install the virtual environment of pip 
+
+- pip install virtualenv
+-------------------------------
+
+---------- Lecture 2 ----------
+title: create project by django 
+
+1- create virtual environment > virtualenv 'name'
+2- activate the virtual environment you should the dir in the virtualenv name. 
+   2.2 windows > .\Scripts
+   2.3 mac > source bin/activate
+3- install django > pip install django
+4- create project in django > django-admin startproject 'name'
+5- to run the django project go to inside your project name then write > python manage.py runserver
+
+-------------------------------
+
+---------- Lecture 3 ----------
+title: create apps
+
+1- you should activate the virtualenv. to create an app write > python manage.py startapp 'name'
+2- then go to the project folder > settings.py > then write in this function Ex: name the app is pages > INSTALLED_APPS = [pages.apps.PagesConfig],
+3- then go to the urls.py inside project folder > then import path, include from django.urls then write in this function Ex: name the app is pages urlpatterns = [path('pages/', include('pages.urls'))]
+
+-------------------------------
+
+---------- Lecture 4 ----------
+title: views 
+
+- this is a views of your app
+
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+---------- Lecture 1 ----------
+-------------------------------
+
+--------------- End the Course -----------------
