@@ -1,0 +1,4 @@
+Task 2021-02-17:
+
+1- add committee chairs, students and doctors to pages, parts, base in templates
+2- connect to mysql DB
